@@ -31,20 +31,28 @@ body {
 header {
     background-color: #003058;
     color: #FFFFFF;
-    background-image: url("utahtechimages/utahtechlogo.svg");
-    background-position: right;
-    background-repeat: no-repeat;
-    font-family: Georgia;
+    font-family: Georgia, serif;
 }
 
 header h1 {
     line-height: 140%;
-    padding: .5rem
+    background-image: url(utahtechlogo.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
+    padding: .5rem;
+    margin-bottom: 0;
 }
 
 nav {
     font-weight: bold;
     background-color: #F3F3F3;
+    padding: .5rem .5rem .5rem 2rem;
+}
+
+main {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 a {
