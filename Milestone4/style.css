@@ -1,0 +1,16 @@
+#wrapper {
+    display: grid;
+    grid-auto-rows: minmax(0px,100px) minmax(0,650px) minmax(0px,75px) minmax(0px,400px) minmax(0px,75px) minmax(0px,200px) minmax(0px,100px);
+/*    grid-template-columns: minmax(0px,100px) minmax(0px,50px) minmax(0px,250px) minmax(0px,75px) minmax(0px,250px) minmax(0px,75px) minmax(0px,250px) minmax(0px,50px) minmax(0px,100px);
+*/
+    grid-template-columns: minmax(0px,1fr) minmax(0px,.5fr) minmax(0px,2.5fr) minmax(0px,0.75fr) minmax(0px,2.50fr) minmax(0px,0.75fr) minmax(0px,2.50fr) minmax(0px,.5fr) minmax(0px,1fr);
+}
+
+.cell {
+    background-color: #FFFFFF;
+    border: 1px solid #000;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
