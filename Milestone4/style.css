@@ -10,9 +10,6 @@ body {
     margin: 0;
 }
 
-.cell {
-    
-}
 
 header {
     grid-column: 2/9;
